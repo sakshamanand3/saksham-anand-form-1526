@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Handling</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+<body>
+     <div class="wrap">
+   
+    <form method="get" action="index.php"> 
+        <fieldset>
+            <legend>Form Assignment</legend>
+
+             <section class="form-body">
+            
+            <!-------USERNAME------->
+            <div class="input-content" id="uname-label">
+               <label  for="uname">Full Name</label>
+                <input type="text" id="uname" name="uname" >
+            </div>
+            
+            <!-------EMAIL---------->
+            <div class="input-content" id="email-label">
+               <label  for="email">Email</label>
+               <input type="text" id="email" name="email" >   
+            </div>
+            </section>
+                
+            <!-------MESSAGE-------->
+
+            <div class="input-content" id="msg-label">
+                <label for="message">Message</label>
+                <textarea name="textarea" id="message" ></textarea>
+            </div>
+
+            <!-- -----SUBMIT BUTTON ------->
+            <div class="submitbtn">
+                <input type="button" 
+                       value="SUBMIT" 
+                       id="submit-data" 
+                       name="submit-data">
+            </div>
+
+        </fieldset>
+    </form>
+    <script src="script/index.js"></script>
+
+</body>
+
+</html>
